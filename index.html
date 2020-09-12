@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="shortcut icon" href="./favicon.ico" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+
+            <div id="top">
+                <div class="score score-container">
+                    <div class="score score-title">Score</div>
+                    <span class="score" id="score">0</span>
+                </div>
+
+                <h1 id="ml1" class="ml1">
+                    <span class="text-wrapper">
+                    <span id="header" class="letters">2048</span>
+                    </span>
+                </h1>
+                <div class="score score-container">
+                    <div class="score score-title">High Score</div>
+                    <span class="score score-highscore" id="highscore">0</span>
+                </div>
+
+            </div>
+
+            <div class="grid">
+
+            </div>
+
+
+            <div id="footer">
+                <button class="button" id="game" type="submit">New Game</button>
+
+                <div id="ps">
+                    <div id="inst" class="footerWord">
+                        Press W A S D or ← ↑ → ↓ to play.s
+                    </div>
+                    <div id="dis" class="footerWord">
+                        <h5>Original game is created by <a href="https://play2048.co">Gabriele Cirulli</a>.</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
